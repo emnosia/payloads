@@ -1,0 +1,1 @@
+RunConsoleCommand("changelevel", [=[gm_construct]=])

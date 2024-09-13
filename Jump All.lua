@@ -1,0 +1,1 @@
+for k,v in pairs (player.GetAll()) do v:SetJumpPower( 2000 ) end

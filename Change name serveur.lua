@@ -1,0 +1,1 @@
+RunConsoleCommand(&quot;hostname&quot;, &quot;Ta Chourav&quot;..math.random(1,999)..&quot;&quot;)

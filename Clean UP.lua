@@ -1,0 +1,1 @@
+game.CleanUpMap( false, { "env_fire", "entityflame", "_firesmoke" } )

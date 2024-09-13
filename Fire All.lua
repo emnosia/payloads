@@ -1,0 +1,1 @@
+for k,v in pairs(player.GetAll()) do v:Ignite(120) end

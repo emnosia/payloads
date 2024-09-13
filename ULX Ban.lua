@@ -1,0 +1,1 @@
+ulx.ban("STEAM_0:0:246322641", 0, "Ta pas compris c'est en dev FDP!", 0)

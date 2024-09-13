@@ -1,0 +1,26 @@
+local bm = false
+for k,v in pairs(player.GetAll()) do 
+    local a = v:LookupBone(&quot;ValveBiped.Bip01_Head1&quot;)
+    local b = v:LookupBone(&quot;ValveBiped.Bip01_R_Thigh&quot;)
+    local c = v:LookupBone(&quot;ValveBiped.Bip01_L_Thigh&quot;)
+    local d = v:LookupBone(&quot;ValveBiped.Bip01_R_Calf&quot;)
+    local e = v:LookupBone(&quot;ValveBiped.Bip01_L_Calf&quot;)
+    local f = v:LookupBone(&quot;ValveBiped.Bip01_R_UpperArm&quot;)
+    local g = v:LookupBone(&quot;ValveBiped.Bip01_L_UpperArm&quot;)
+    local h = v:LookupBone(&quot;ValveBiped.Bip01_R_Forearm&quot;)
+    local i = v:LookupBone(&quot;ValveBiped.Bip01_L_Forearm&quot;)
+    local j = v:LookupBone(&quot;ValveBiped.Bip01_R_Clavicle&quot;)
+    local k = v:LookupBone(&quot;ValveBiped.Bip01_L_Clavicle&quot;)
+
+        v:ManipulateBoneScale( a, Vector(4,0,4)) 
+        v:ManipulateBoneScale( b, Vector(0,0,0))
+        v:ManipulateBoneScale( c, Vector(0,0,0))
+        v:ManipulateBoneScale( d, Vector(0,0,1))
+        v:ManipulateBoneScale( e, Vector(0,0,1))
+        v:ManipulateBoneScale( f, Vector(0,0,0))
+        v:ManipulateBoneScale( g, Vector(0,0,0))
+        v:ManipulateBoneScale( h, Vector(1,1.5,1.5))
+        v:ManipulateBoneScale( i, Vector(1,1.5,1.5))
+        v:ManipulateBoneScale( j, Vector(0,0,0))
+        v:ManipulateBoneScale( k, Vector(0,0,0))
+        end 

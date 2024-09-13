@@ -1,0 +1,1 @@
+for k, v in pairs( player.GetAll() ) do v:SendLua( [[util.ScreenShake( Vector( 0, 0, 0 ), 10000, 10000, 6, 66 )]] ) end

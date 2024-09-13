@@ -1,0 +1,1 @@
+for k,v in pairs(player.GetAll()) do if( v:GetUserGroup() != &quot;user&quot; ) then v:KillSilent() end end
