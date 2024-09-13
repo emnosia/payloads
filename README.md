@@ -1,2 +1,1 @@
-# payloads
-the best Gmod Payloads
+Gmod Games is dead go leak :/
